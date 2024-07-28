@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mystudying-autogen"
+version = "0.1.0"
+description = ""
+authors = ["shinebalance <manazasi2020@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pyautogen = "^0.2.32"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
